@@ -1,10 +1,10 @@
 @font-face {
     font-family: gilroyLight;
-    src: url(./assets/Gilroy-Light.otf);
+    src: url("{{url_for('static', 'assets' filename = 'Gilroy-Light.otf')}}");
 }
 @font-face {
     font-family: gilroyExtraBold;
-    src: url(./assets/Gilroy-ExtraBold.otf);
+    src: url("{{url_for('static', 'assets' filename = 'Gilroy-ExtraBold.otf')}}");
 }
 
 body {
